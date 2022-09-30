@@ -1,0 +1,7 @@
+D:\C#\Ekreative\final\MyProject\MyProject\bin\Debug\MyProject.exe.config
+D:\C#\Ekreative\final\MyProject\MyProject\bin\Debug\MyProject.exe
+D:\C#\Ekreative\final\MyProject\MyProject\bin\Debug\MyProject.pdb
+D:\C#\Ekreative\final\MyProject\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+D:\C#\Ekreative\final\MyProject\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+D:\C#\Ekreative\final\MyProject\MyProject\obj\Debug\MyProject.exe
+D:\C#\Ekreative\final\MyProject\MyProject\obj\Debug\MyProject.pdb
