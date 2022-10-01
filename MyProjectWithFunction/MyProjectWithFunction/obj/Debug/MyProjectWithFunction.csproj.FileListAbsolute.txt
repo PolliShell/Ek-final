@@ -1,0 +1,7 @@
+D:\C#\Ekreative\final\MyProjectWithFunction\MyProjectWithFunction\bin\Debug\MyProjectWithFunction.exe.config
+D:\C#\Ekreative\final\MyProjectWithFunction\MyProjectWithFunction\bin\Debug\MyProjectWithFunction.exe
+D:\C#\Ekreative\final\MyProjectWithFunction\MyProjectWithFunction\bin\Debug\MyProjectWithFunction.pdb
+D:\C#\Ekreative\final\MyProjectWithFunction\MyProjectWithFunction\obj\Debug\MyProjectWithFunction.csprojAssemblyReference.cache
+D:\C#\Ekreative\final\MyProjectWithFunction\MyProjectWithFunction\obj\Debug\MyProjectWithFunction.csproj.CoreCompileInputs.cache
+D:\C#\Ekreative\final\MyProjectWithFunction\MyProjectWithFunction\obj\Debug\MyProjectWithFunction.exe
+D:\C#\Ekreative\final\MyProjectWithFunction\MyProjectWithFunction\obj\Debug\MyProjectWithFunction.pdb
