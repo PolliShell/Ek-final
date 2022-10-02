@@ -1,16 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MyProject
+
+using System;
+
+namespace ConsoleApp2
 {
     class Program
     {
-        static void CreateArray(string[,] arr, int n, int m)
+        static void Main(string[] args)
         {
-            arr = new string[n, m]; // Пустой двухмерный массив Команд с Игроками
+            int n = int.Parse(Console.ReadLine()); // Количество Команд
+            int m = int.Parse(Console.ReadLine());  // Количество Игроков
+            int count = 0;
+
+            string[,] arr = new string[n, m]; // Пустой двухмерный массив Команд с Игроками
 
             Console.WriteLine("Команды и игроки по порядку: \n");
             for (int i = 0; i < n; i++) // Заполнение массива Командами и Игроками
@@ -29,27 +31,11 @@ namespace MyProject
                 Console.WriteLine();
 
             }
-            //Console.WriteLine();
-        }
-
-        static void ReverseArray(string[,] newArr, string[,] arr, int n, int m)
-        {
-
-            newArr = new string[m, n]; // Создание нового массива с новой расстановкой игроков
-
-            arr = new string[n, m]; // Пустой двухмерный массив Команд с Игроками
+            Console.WriteLine();
 
 
-            for (int i = 0; i < n; i++) // Заполнение массива Командами и Игроками
-            {
-                for (int j = 0; j < m; j++)
-                {
-                    arr[i, j] = " |К" + (i + 1).ToString() + "И" + (j + 1).ToString() + "|"; // Игроки имеют тип Стринг и содержат номер своей команды и свой номер
-                                                                                             //  Console.Write(arr[i, j]); // Вывод на экран
-                }
-                Console.WriteLine();
+            string[,] newArr = new string[m, n]; // Создание нового массива с новой расстановкой игроков
 
-            }
             Console.WriteLine("Все игроки разные в рядках: \n");
             for (int i = 0; i < newArr.GetLength(0); i++) // Разворот массива на 90 градусов. Этим достигается размещение игроков разных команд в ряды
             {
@@ -67,24 +53,7 @@ namespace MyProject
                 }
                 Console.WriteLine();
             }
-           
-        }
-
-       
-
-
-        static void Main(string[] args)
-        {
-
-            int n = int.Parse(Console.ReadLine()); // Количество Команд
-            int m = int.Parse(Console.ReadLine());  // Количество Игроков
-
-            string[,] arr = new string[n, m]; // Пустой двухмерный массив Команд с Игроками
-            CreateArray(arr, n, m);
-            string[,] newArr = new string[m, n];
-
-
-            ReverseArray(newArr, arr, n, m);
+            Console.WriteLine();
 
             Console.WriteLine("Расстановка спортсменов: \n");
 
@@ -109,7 +78,7 @@ namespace MyProject
                     for (int j = 0; j < newArr.GetLength(1); j++)
                     {
                         Console.Write(newArr[i, j]);
-                    }
+                    }                  
                 }
 
 
@@ -152,7 +121,7 @@ namespace MyProject
                     Console.Write(tmp);
 
                 }
-
+              
                 Console.WriteLine();
 
                 for (int l = 0; l < n; l++) // Вывод на экран с учетом второго требования задачи
@@ -167,7 +136,7 @@ namespace MyProject
             Console.WriteLine("-------------------");
             Console.WriteLine();
 
-
         }
+
     }
 }
